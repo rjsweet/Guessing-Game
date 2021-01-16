@@ -34,13 +34,13 @@ function2 ();
 
 function function3(){
   var movie = prompt('Is Sabrina my favorite movie?').toLowerCase()
-   if (movie == 'yes' || m == 'y'){
+   if (movie == 'yes' || movie == 'y'){
      alert('Thats correct!');
      t++;
      return t;
    } else if (movie == 'no' || movie == 'n'){
      alert('sorry, thats not true')
-   }
+    }
 }
 function3();
 
